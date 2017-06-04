@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/firstPage"
+            android:icon="@drawable/ic_home"
+            android:checked="true"
+            android:title="日报首页" />
+        <item
+            android:id="@+id/nav_movieDaily"
+            android:title="电影日报"
+           />
+        <item
+            android:id="@+id/nav_noboreding"
+
+            android:title="不许无聊" />
+        <item
+            android:id="@+id/nav_dailyPsy"
+
+            android:title="日常心理学" />
+        <item
+            android:id="@+id/nav_userRecomand"
+
+            android:title="用户推荐日报" />
+
+        <item
+            android:id="@+id/nav_designDaily"
+
+            android:title="设计日报" />
+        <item
+            android:id="@+id/nav_companyDaily"
+
+            android:title="大公司日报" />
+        <item
+            android:id="@+id/nav_financeDaily"
+
+            android:title="财经日报" />
+        <item
+            android:id="@+id/nav_netSafety"
+
+            android:title="互联网安全" />
+        <item
+            android:id="@+id/nav_startGame"
+
+            android:title="开始游戏" />
+        <item
+            android:id="@+id/nav_musicDaily"
+
+            android:title="音乐日报" />
+        <item
+            android:id="@+id/nav_ACGDaily"
+
+            android:title="动漫日报" />
+        <item
+            android:id="@+id/nav_GYMDaily"
+
+            android:title="体育日报" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_set"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="Setting" />
+        </menu>
+    </item>
+
+</menu>
