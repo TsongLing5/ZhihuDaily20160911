@@ -69,5 +69,6 @@ public class LoadNewsTask extends AsyncTask<Void, Void, List<ZhihuItem>> {
 
     public interface onFinishListener {
         public void afterTaskFinish();
+        //////yes
     }
 }
